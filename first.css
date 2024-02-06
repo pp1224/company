@@ -1,0 +1,132 @@
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(/images/company-bkg-1.webp);
+    height: 90.2vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+.banner-text p{
+    font-family: poppins;
+    color: aliceblue;
+}
+
+.text-area p{
+   font-size: 6vw;
+}
+
+.btn-1{
+   
+    margin: auto;
+      
+}
+.btn-block{
+  font-size: 30px;
+}
+
+.hover-nav:hover{
+    
+    background-color: aqua;
+    
+}
+
+.desc-1{
+    font-size: 2vw;
+ }
+ .desc-2{
+    font-size: 3vw;
+ }
+
+ /* =====================================   SERVICES   ======================================================== */
+
+ .services{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(/images/services.jpeg);
+  height: 90.2vh;
+  background-size: cover;
+  background-position: center;
+ }
+
+ .all-colms{
+    padding-top: 25px;
+ }
+
+ .service-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: aqua;
+    transition:0.5s;
+  }
+
+  .service-box:hover{
+    background: greenyellow;
+    transform: scale(1.05);
+  }
+
+  .service-icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  .service-text{
+    padding: 10px;
+    text-align: center;
+  }
+  .service-heading{
+    font-size: 5vw;
+    font-family: poppins;
+    color: #ddd;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .services{
+      background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)), url(/images/services.jpeg);
+      height: 190.2vh;
+      background-size: cover;
+      background-position: center;
+        
+     }
+    
+  }
+
+  /* =============   contact form ===================== */
+
+  .form_contact{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 500px;
+  }
+
+  .labes{
+    font-size: 2vw;
+ }
+
+ .contact_heading{
+  font-size: 4vw;
+ }
+ .contact-page{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(/images/contactusimg.jpg);
+    height: 90.2vh;
+    background-size: cover;
+    background-position: center;
+ }
+
+ /* ==================            ABOUT - US           ======================== */
+
+ .about-us{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(/images/contactusimg.jpg);
+  height: 90.2vh;
+  background-size: cover;
+  background-position: center;
+ }
